@@ -50,7 +50,7 @@ function getPermissionByList(
   return permissionFound;
 }
 
-const test = getPermission(['p10']);
+const test = getPermission(['p10', 'p1', 'p2', 'p4']);
 
 console.log(test);
 // Write TypeScript code!
